@@ -11,5 +11,31 @@ This repository contains copies of Codewars kata solutions I have written.
 
 <h4>Javascript</h4>
 <ul>
-  <li><a href="https://github.com/bjorkypie/codewars/blob/main/javascript/title_case.js">Title Case</a> - 6 kyu</li>
+  <li>FEBRUARY \'21</li>
+  <ul>
+    <li><a href="https://github.com/bjorkypie/codewars/blob/main/javascript/title_case.js">Title Case</a> - 6 kyu</li>
+    <li><a href="#">Get Middle Character</a> - </li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+    <li><a href="#"></a> - # kyu</li>
+  </ul>
+  <li>MARCH \'21</li>
 </ul>
