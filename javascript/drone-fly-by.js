@@ -10,11 +10,15 @@ You will be given two strings: lamps and drone. lamps represents a row of lamps,
 
 The drone string represents the position of the drone T (any better suggestion for character??) and its flight path up until this point =. The drone always flies left to right, and always begins at the start of the row of lamps. Anywhere the drone has flown, including its current position, will result in the lamp at that position switching on.
 
-Return the resulting lamps string. 
+Return the resulting lamps string.
+
+Refactored to work when there are less lamps than the drone's path.
 */
 
 function flyBy(lamps, drone){
-  let onLamps = 'o'
-  let offLamps = 'x'
-  return `${onLamps.repeat(drone.length)}${offLamps.repeat(lamps.length - drone.length)}`
+  let onLamps = 'o';
+  let offLamps = 'x';
+  return (drone.length <= lamps.length) ?
+    `${onLamps.repeat(drone.length)}${offLamps.repeat(lamps.length - drone.length)}`
+    : `${onLamps.repeat(lamps.length)}`;
 }
