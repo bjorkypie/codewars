@@ -4,6 +4,7 @@ Numbers to Letters - 7kyu
 Given an array of numbers (in string format), you must return a string. The numbers correspond to the letters of the alphabet in reverse order: a=26, z=1 etc. You should also account for '!', '?' and ' ' that are represented by '27', '28' and '29' respectively.
 
 All inputs will be valid.
+//refactored to use map method
 */
 
 function switcher(x){
@@ -39,11 +40,6 @@ function switcher(x){
     28: '?',
     29: ' ',
   }
-  //declare empty result string
-  let result = '';
-  //loop through the array and return
-  x.forEach(num =>{
-    result += oppositeAlpha[num];
-  })
-  return result
+  //map letters to new array, join and return
+  return x.map(num => oppositeAlpha[num]).join('');
 }
