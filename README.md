@@ -14,7 +14,7 @@ This repository contains copies of Codewars kata solutions I have written.
   <li>FEBRUARY \'21</li>
   <ul>
     <li><a href="https://github.com/bjorkypie/codewars/blob/main/javascript/title_case.js">Title Case</a> - 6 kyu</li>
-    <li><a href="#">Get Middle Character</a> - </li>
+    <li><a href="#">Get Middle Character</a> - 7kyu </li>
     <li><a href="#"></a> - # kyu</li>
     <li><a href="#"></a> - # kyu</li>
     <li><a href="#"></a> - # kyu</li>
