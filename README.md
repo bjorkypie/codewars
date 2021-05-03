@@ -20,20 +20,20 @@ This repository contains copies of Codewars kata solutions I have written.
     <li><a href="#">Sum of Digits</a> - 6kyu</li>
     <li><a href="#">Create Phone Number</a> - 6kyu</li>
     <li><a href="#">Give Me A Diamond</a> - 6kyu</li>
-    <li><a href="#">Disemvowel Trolls</a> - # kyu</li>
-    <li><a href="#">Numbers to Objects</a> - # kyu</li>
-    <li><a href="#"Supermarket Queue></a> - # kyu</li>
-    <li><a href="#">Find the Odd Integer</a> - # kyu</li>
-    <li><a href="#">Multiply</a> - # kyu</li>
-    <li><a href="#">Vowel Count</a> - # kyu</li>
-    <li><a href="#">Multiples of 3 or 5</a> - # kyu</li>
-    <li><a href="#">Find the Stray Number</a> - # kyu</li>
-    <li><a href="#">Sum of Odd Numbers</a> - # kyu</li>
-    <li><a href="#">Square of Squares</a> - # kyu</li>
-    <li><a href="#">Stop Spinning My Words</a> - # kyu</li>
-    <li><a href="#">Shortest Word</a> - # kyu</li>
-    <li><a href="#">Exes and Ohs</a> - # kyu</li>
-    <li><a href="#">Bit Counting</a> - # kyu</li>
+    <li><a href="#">Disemvowel Trolls</a> - 7kyu</li>
+    <li><a href="#">Numbers to Objects</a> - 7kyu</li>
+    <li><a href="#"Supermarket Queue></a> - 6kyu</li>
+    <li><a href="#">Find the Odd Integer</a> - 6kyu</li>
+    <li><a href="#">Multiply</a> - 8kyu</li>
+    <li><a href="#">Vowel Count</a> - 7kyu</li>
+    <li><a href="#">Multiples of 3 or 5</a> - 6kyu</li>
+    <li><a href="#">Find the Stray Number</a> - 7kyu</li>
+    <li><a href="#">Sum of Odd Numbers</a> - 7kyu</li>
+    <li><a href="#">Square of Squares</a> - 7kyu</li>
+    <li><a href="#">Stop Spinning My Words</a> - 6kyu</li>
+    <li><a href="#">Shortest Word</a> - 7kyu</li>
+    <li><a href="#">Exes and Ohs</a> - 7kyu</li>
+    <li><a href="#">Bit Counting</a> - 6kyu</li>
   </ul>
   <li>MAR 2021</li>
   <ul>
