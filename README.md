@@ -22,7 +22,7 @@ This repository contains copies of Codewars kata solutions I have written.
     <li><a href="#">Give Me A Diamond</a> - 6kyu</li>
     <li><a href="#">Disemvowel Trolls</a> - 7kyu</li>
     <li><a href="#">Numbers to Objects</a> - 7kyu</li>
-    <li><a href="#"Supermarket Queue></a> - 6kyu</li>
+    <li><a href="#">Supermarket Queue></a> - 6kyu</li>
     <li><a href="#">Find the Odd Integer</a> - 6kyu</li>
     <li><a href="#">Multiply</a> - 8kyu</li>
     <li><a href="#">Vowel Count</a> - 7kyu</li>
