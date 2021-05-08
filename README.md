@@ -94,6 +94,7 @@ This repository contains copies of Codewars kata solutions I have written.
     <li><a href="javascript/counting-sheep.js">Counting Sheep</a> - 8kyu</li>
     <li><a href="javascript/square-sum.js">Square Sum</a> - 8kyu</li>
     <li><a href="javascript/take-ten-min-walk.js">Ten Minute Walk</a> - 6kyu</li>
+    <li><a href="javascript/moving-zeros-to-end.js">Moving Zeros to the End</a> - 5kyu</li>
     <li><a href="javascript/"></a> - # kyu</li>
     
   </ul>
