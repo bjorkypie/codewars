@@ -95,7 +95,12 @@ This repository contains copies of Codewars kata solutions I have written.
     <li><a href="javascript/square-sum.js">Square Sum</a> - 8kyu</li>
     <li><a href="javascript/take-ten-min-walk.js">Ten Minute Walk</a> - 6kyu</li>
     <li><a href="javascript/moving-zeros-to-end.js">Moving Zeros to the End</a> - 5kyu</li>
-    <li><a href="javascript/moving-zeros-to-end.js">Moving Zeros to the End</a> - 5kyu</li>
+    <li><a href="javascript/num-to-rev-arr.js">Convert Number to Reversed Array of Digits</a> - 8kyu</li>
+    <li><a href="javascript/opposites-attract"></a>Opposites Attract - 8kyu</li>
+    <li><a href="javascript/find-smallest-integer">Find the Smallest Integer in an Array</a> - 8kyu</li>
+    <li><a href="javascript/find-next-square.js"></a>Find the Next Perfect Square - 7kyu</li>
+    <li><a href="javascript/presents.js">Presents</a> - 7kyu</li>
+    <li><a href="javascript/needle-in-hay.js">A Needle in the Haystack</a> - 8kyu</li>
     <li><a href="javascript/"></a> - # kyu</li>
     
   </ul>
