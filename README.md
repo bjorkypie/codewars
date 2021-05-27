@@ -11,6 +11,26 @@ This repository contains copies of Codewars kata solutions I have written.
 
 <h4>Javascript</h4>
 <ul>
+  <li>Array Methods</li>
+   <ul>
+      <li><a href="javascript/removing-elements.js">Removing Elements</a> - 8kyu</li>
+      <li><a href="javascript/last-survivor.js">Last Survivor</a> - 7kyu</li>
+      <li><a href="javascript/needle-in-hay.js">Needle in the Haystack</a> - 8kyu</li>
+      <li><a href="javascript/presents.js">Presents</a> - 7kyu</li>
+      <li><a href="javascript/moving-zeros-to-end.js"></a> - 5kyu</li>
+  </ul>
+  <li>String Methods</li>
+  <ul>
+      <li><a href="javascript/breakCamelCase.js">Break camelCase</a> - 6kyu</li>
+      <li><a href="javascript/"></a> - # kyu</li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+</ul>
+  
+      
+<ul>
   <li>FEB 2021</li>
   <ul>
     <li><a href="javascript/title_case.js">Title Case</a> - 6 kyu</li>
