@@ -22,10 +22,10 @@ This repository contains copies of Codewars kata solutions I have written.
   <li>String Methods</li>
   <ul>
       <li><a href="javascript/breakCamelCase.js">Break camelCase</a> - 6kyu</li>
-      <li><a href="javascript/"></a> - # kyu</li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li><a href="javascript/anagrams.js">Where My Anagrams At?</a> - 5kyu</li>
+      <li><a href="javascript/detect-pangram">Detect Pangram</a> -6kyu</li>
+      <li><a href="javascript/split-strings.js">Split Strings</a> - 6kyu</li>
+      <li><a href="javascript/format-string-names.js">Format String Names</a> - 6kyu</li>
   </ul>
 </ul>
   
