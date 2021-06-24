@@ -17,15 +17,15 @@ This repository contains copies of Codewars kata solutions I have written.
       <li><a href="javascript/last-survivor.js">Last Survivor</a> - 7kyu</li>
       <li><a href="javascript/needle-in-hay.js">Needle in the Haystack</a> - 8kyu</li>
       <li><a href="javascript/presents.js">Presents</a> - 7kyu</li>
-      <li><a href="javascript/moving-zeros-to-end.js"></a> - 5kyu</li>
+      <li><a href="javascript/moving-zeros-to-end.js">Moving Zeros to the End</a> - 5kyu</li>
   </ul>
   <li>String Methods</li>
   <ul>
       <li><a href="javascript/breakCamelCase.js">Break camelCase</a> - 6kyu</li>
-      <li><a href="javascript/"></a> - # kyu</li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li><a href="javascript/anagrams.js">Where My Anagrams At?</a> - 5kyu</li>
+      <li><a href="javascript/detect-pangram">Detect Pangram</a> -6kyu</li>
+      <li><a href="javascript/split-strings.js">Split Strings</a> - 6kyu</li>
+      <li><a href="javascript/format-string-names.js">Format String Names</a> - 6kyu</li>
   </ul>
 </ul>
   
