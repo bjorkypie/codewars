@@ -15,7 +15,7 @@ Pseudocode:
 */
 
 function sumMix(x){
-    return x.map(el => Number(el)).reduce((acc, cur) => acc + cur)
+    return x.map(el => Number(el)).reduce(((acc, cur) => acc + cur), 0)
 }
 
 //tests
