@@ -21,3 +21,22 @@ function repeats(arr){
     //reduce array with single appearance numbers to sum
     return appearOnce.reduce((acc, cur) => acc + cur, 0)
   };
+
+//using an object
+  function repeatsObj(arr){
+    let obj = arr.reduce((acc, cur) => {
+      if(cur in acc){
+        acc[cur] += 1
+      }else{
+        acc[cur] = 1;
+      }
+      return acc
+    }, {})
+    let result = 0
+    for (let num in obj) {
+      if(obj[num] === 1){
+        result += Number(num)
+      }
+    }
+    return result
+  };
