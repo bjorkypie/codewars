@@ -18,10 +18,4 @@ join string with space delimiter
 
 */
 
-const removeConsecutiveDuplicates = s => {
-    let arr = s.split(' ')
-    let filtered = arr.filter((el, i, array) => {
-        return el === array[i - 1] ? true : false;
-    })
-    return filtered.join(' ')
-}
+const removeConsecutiveDuplicates = s => s.split(' ').filter((el, i, arr) => el !== arr[i - 1] ? true : false).join(' ')
