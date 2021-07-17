@@ -6,24 +6,15 @@ The main idea is to count all the occurring characters in a string. If you have 
 What if the string is empty? Then the result should be empty object literal, {}.
 */
 
-function count (string) {
-  //declare empty object
-  let obj = {}
-  //declare and initialize computed object key to empty string
-  let key = ''
-  //split the string into array of characters
-  let strArr = string.split('')
-  //iterate over each character
-  strArr.forEach(char =>{
-    //assign the comupted key to current char
-    key = char
-    //if the current char exists in object, add 1
-    if(obj[key]){
-      obj[key]++
-    //else if current char is not in object, set count equal to 1
-    }else{
-      obj[key] = 1
-    }
-  })
-  return obj
+function count (string) {  
+  return (string.length > 0) ? string
+    .split('')
+    .reduce((allLetters, letter) => {
+      if (letter in allLetters) {
+        allLetters[letter]++;
+      }else{
+        allLetters[letter] = 1;
+      }
+      return allLetters;
+    }, {}) : {};
 }
