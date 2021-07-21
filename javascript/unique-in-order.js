@@ -19,6 +19,5 @@ Pseudocode:
 */
 
 var uniqueInOrder=function(iterable){
-    let arr = typeof iterable === 'string' ? iterable.split('') : iterable;
-    return arr.filter((el, i, a) => (i === 0) ? true : (el == a[i-1]) ? false : true);
+    return [...iterable].filter((el, i, a) => (i === 0) ? true : (el == a[i-1]) ? false : true);
   }
