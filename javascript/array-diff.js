@@ -11,9 +11,20 @@ If a value is present in b, all of its occurrences must be removed from the othe
 
 arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
+PARAMETERS:
+  two arrays
+RESULTS:
+  an array with only the values unique to first array
+  all instances of values in second array should be removed
+EXAMPLES:
+  arrayDiff( [4,5,5,6,7,7,10] , [4,7] ) => [5,5,6,10]
+PSEUDOCODE:
+  filter method
+    if second array includes value, false
+    otherwise true
 */
 
 function arrayDiff(a, b) {
-  //use filter, 0 is falsey so just returning true/false works here
-  return a.filter(item => !b.includes(item))
+  return a.filter(el => b.includes(el) ? false : true)
 }
+
