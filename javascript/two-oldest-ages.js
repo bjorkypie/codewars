@@ -25,9 +25,16 @@ c) consider edge cases where more than one of the oldest or second oldest age:
 
 // return the two oldest/oldest ages within the array of ages passed in.
 function twoOldestAges(ages){
-    return ages.sort((a, b) => a-b).slice(-2)
-    
+   let uniqueAges = new Set(ages.sort((a, b) => a-b)) 
+   let result = [] 
+   result.unshift(Math.max(...uniqueAges)) 
+   uniqueAges.delete(Math.max(...uniqueAges)) 
+   result.unshift(Math.max(...uniqueAges)) 
+   return ages.filter(el => result.includes(el))  
   }
 
-  
+// // edge case tests
+// console.log(twoOldestAges(  [14, 14, 12, 2, 6]), [12, 14, 14])
+// console.log(twoOldestAges( [6, 4, 5, 2, 3, 6, 5, 5]), [5, 5, 5, 6, 6])
+// console.log(twoOldestAges([2, 2, 2, 2, 2]), [2, 2, 2, 2, 2])
   
