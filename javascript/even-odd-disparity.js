@@ -1,4 +1,9 @@
 /*
+Even Odd Disparity - 7kyu
+
+Description:
+Given an array, return the difference between the count of even numbers and the count of odd numbers. 0 will be considered an even number.
+
 parameters: 
   array of numbers and lowercase letters (which should be ignored)
 results:
@@ -15,7 +20,7 @@ pseudocode:
 
 function solve(a){
     return Math.abs(a.reduce((acc, c) =>{
-      if(!Number.isNaN(c)){
+      if(!isNaN(c)){
         acc += c % 2 === 0 ? 1 : -1
       }
     }), 0)
