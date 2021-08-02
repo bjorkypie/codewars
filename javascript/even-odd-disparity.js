@@ -18,11 +18,4 @@ pseudocode:
    return absolute value of reducer
 */
 
-function solve(a){
-    return Math.abs(a.reduce((acc, c) =>{
-      if(!isNaN(c)){
-        acc += c % 2 === 0 ? 1 : -1
-      }
-    }), 0)
-    
-  };
+const solve = (a) => a.reduce((acc, cur) => cur % 2 === 0 ? acc+=1 : cur % 2 === 1 ? acc-=1 : acc, 0);
